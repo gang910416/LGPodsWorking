@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ACBAFEDABFBA13FBFBD5E605 /* Pods_LGPodsWorking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861BDB7507BBDA02FEDE70 /* Pods_LGPodsWorking_Tests.framework */; };
+		C2298CDD24E081590048DD53 /* LGPPointManger.m in Sources */ = {isa = PBXBuildFile; fileRef = C2298CDC24E081590048DD53 /* LGPPointManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		1312DB402DD21E5249DD042D /* Pods-LGPodsWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPodsWorking_Example.debug.xcconfig"; path = "Target Support Files/Pods-LGPodsWorking_Example/Pods-LGPodsWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		138056B3EC688CE6BBEDAF34 /* Pods-LGPodsWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPodsWorking_Tests.release.xcconfig"; path = "Target Support Files/Pods-LGPodsWorking_Tests/Pods-LGPodsWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49F076266DEEDB14A01501AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49F076266DEEDB14A01501AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGPodsWorking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGPodsWorking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +61,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		723BD436279B88554550400F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		723BD436279B88554550400F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B67DDAF034F3A6C51B07B30 /* Pods-LGPodsWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPodsWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LGPodsWorking_Tests/Pods-LGPodsWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA861BDB7507BBDA02FEDE70 /* Pods_LGPodsWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGPodsWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB48A52BDACA151C47B7ADC5 /* LGPodsWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LGPodsWorking.podspec; path = ../LGPodsWorking.podspec; sourceTree = "<group>"; };
+		AB48A52BDACA151C47B7ADC5 /* LGPodsWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGPodsWorking.podspec; path = ../LGPodsWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE0E1A1F0E47F153506E066E /* Pods-LGPodsWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPodsWorking_Example.release.xcconfig"; path = "Target Support Files/Pods-LGPodsWorking_Example/Pods-LGPodsWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C2298CDB24E081590048DD53 /* LGPPointManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LGPPointManger.h; path = ../LGPodsWorking/Classes/LGPPointManger.h; sourceTree = "<group>"; };
+		C2298CDC24E081590048DD53 /* LGPPointManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LGPPointManger.m; path = ../LGPodsWorking/Classes/LGPPointManger.m; sourceTree = "<group>"; };
 		E4A2B026F457A45A7B5D7B54 /* Pods_LGPodsWorking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGPodsWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +106,6 @@
 				7B67DDAF034F3A6C51B07B30 /* Pods-LGPodsWorking_Tests.debug.xcconfig */,
 				138056B3EC688CE6BBEDAF34 /* Pods-LGPodsWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -193,6 +195,8 @@
 				AB48A52BDACA151C47B7ADC5 /* LGPodsWorking.podspec */,
 				49F076266DEEDB14A01501AE /* README.md */,
 				723BD436279B88554550400F /* LICENSE */,
+				C2298CDB24E081590048DD53 /* LGPPointManger.h */,
+				C2298CDC24E081590048DD53 /* LGPPointManger.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -385,6 +390,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LGPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LGPViewController.m in Sources */,
+				C2298CDD24E081590048DD53 /* LGPPointManger.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

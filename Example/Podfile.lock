@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LGPodsWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LGPodsWorking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LGPodsWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LGPodsWorking: 8910a046367c3de948302d1f7b180714a086b1cd
+
+PODFILE CHECKSUM: b01855874e56de142077f36e3c347da623251ca8
+
+COCOAPODS: 1.9.3

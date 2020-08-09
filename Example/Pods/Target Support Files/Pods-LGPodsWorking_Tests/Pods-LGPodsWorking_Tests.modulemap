@@ -1,0 +1,6 @@
+framework module Pods_LGPodsWorking_Tests {
+  umbrella header "Pods-LGPodsWorking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

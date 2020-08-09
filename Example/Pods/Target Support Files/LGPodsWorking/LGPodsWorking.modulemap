@@ -1,0 +1,6 @@
+framework module LGPodsWorking {
+  umbrella header "LGPodsWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
